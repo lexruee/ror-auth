@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "pg", "~> 1.1"
 
 gem "bcrypt", "~> 3.1"
+
+gem "pry", "~> 0.12.2"
