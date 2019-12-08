@@ -2,5 +2,16 @@
   <%= notice %>
 </p>
 
-<h1>Example</h1>
-<p>Lorem ipsum</p>
+<% if current_user %>
+ <h1>Hi, <%= current_user.email %>!</h1>
+  <p>
+    Welcome back!
+    <%= link_to('Logout', logout_path) %>
+  </p>
+<% else%>
+  <h1>Hi, guest!</h1>
+  <p>
+    Please <%= link_to('Login', login_path) %> or <%=link_to('Signup', signup_path) %>.
+  </p>
+<% end %>
+

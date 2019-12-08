@@ -1,24 +1,4 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Basic User authentication tutorial for a Rails 6 Application.
+The code is based on the [medium article](https://medium.com/@wintermeyer/authentication-from-scratch-with-rails-5-2-92d8676f6836) by Stefan Wintermeyer
